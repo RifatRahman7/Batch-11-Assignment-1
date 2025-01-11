@@ -53,7 +53,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #8fd371;
+    background: #b3f4da;
 }
 
 .banner {
@@ -253,7 +253,7 @@ body {
 }
 
 .btn4:hover {
-    background-color: rgb(8, 91, 56);
+    background-color: rgb(21, 183, 116);
 }
 
 .btn5 {
@@ -638,7 +638,7 @@ td {
     border-radius: 8px;
     background: rgb(0, 106, 80);
     padding: 11px 20px 11px 20px;
-    border: none;
+    border: 1px solid rgba(14, 14, 14, 0.1);
     margin-left: 560px;
     margin-right: 560px;
     width: 151px;
@@ -652,7 +652,8 @@ td {
 }
 
 .donate-button:hover {
-    background-color: rgb(3, 55, 33);
+    background-color: rgb(48, 180, 125);
+    
 }
 
 .sec6 {
