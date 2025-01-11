@@ -1,0 +1,758 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: #F1F1F3;
+    width: 1519px;
+}
+
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Navbar-container {
+    margin-top: 24px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.btn {
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid;
+
+}
+
+.btn:hover {
+    background-color: #8fd371;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 80px 60px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+
+}
+
+.title {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
+}
+
+.idea {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn2 {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    border: none;
+}
+
+.btn2:hover {
+    background-color: rgba(28, 67, 28, 0.814);
+}
+
+.pillar {
+    margin: 32px 0px;
+    margin-left: 160px;
+    margin-right: 160px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sec1 {
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.inno {
+    padding: 24px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+
+}
+
+.sustain {
+    padding: 24px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+}
+
+
+.infra {
+    padding: 24px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.emp {
+    padding: 24px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.sec2 {
+    display: flex;
+}
+
+.vision {
+    margin: 32px 0px;
+    margin-left: 160px;
+    margin-right: 160px;
+    color: rgb(14, 14, 14);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.ban2 {
+    margin: 32px 0px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.digital {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    margin-left: 160px;
+    gap: 24;
+}
+
+.green {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+    margin-left: 40px;
+    gap: 24;
+}
+
+.modern {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+    margin-left: 40px;
+    margin-right: 160px;
+
+}
+
+.btn3 {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+
+.btn3:hover {
+    background-color: blue;
+}
+
+.btn4 {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 11px 20px 11px 20px;
+    border: none;
+
+
+}
+
+.btn4:hover {
+    background-color: rgb(8, 91, 56);
+}
+
+.btn5 {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+
+.btn5:hover {
+    background-color: rgb(126, 128, 13);
+}
+
+.sec3 {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 48px 24px 48px 24px;
+    margin-top: 32px;
+    background-color: rgb(255, 255, 255);
+}
+
+.quote {
+    padding: 5px 0px 5px 0px;
+    background-position: top left;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+
+.believe {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.dr {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sec4 {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 80px;
+    font-size: x-large;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 24px;
+
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.sel1 {
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    width: 152px;
+    height: 42px;
+    padding: 10px 14px 10px 14px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sel2 {
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    width: 152px;
+    height: 42px;
+    padding: 10px 14px 10px 14px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sel3 {
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    width: 152px;
+    height: 42px;
+    padding: 10px 14px 10px 14px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.tab {
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 24px;
+}
+
+.row1 {
+    padding: 24px;
+    font-size: 16px;
+}
+
+.row2 {
+    padding: 24px;
+    font-size: 16px;
+}
+
+.row3 {
+    padding: 24px;
+    font-size: 16px;
+}
+
+.row {
+    background-color: rgb(198, 228, 214);
+
+}
+
+.form-box {
+    border-radius: 16px;
+    padding: 24px;
+    background: rgb(247, 245, 245);
+}
+
+.rec-news {
+    margin-top: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.rn {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.sec5 {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 48px 24px 48px 24px;
+    margin-top: 32px;
+    background-color: rgb(255, 255, 255);
+}
+
+.sat-pic {
+    border-radius: 24px;
+    margin-left: 24px;
+    position: static;
+    width: 408px;
+    height: 306px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+}
+
+.container {
+    display: flex;
+}
+
+.read-more {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: rgb(0, 106, 80);
+    padding: 8px;
+}
+
+.sata {
+    margin-left: 50px;
+}
+
+.sel1:hover {
+    background-color: rgb(103, 219, 180);
+}
+
+.sel2:hover {
+    background-color: rgb(103, 219, 180);
+}
+
+.sel3:hover {
+    background-color: rgb(103, 219, 180);
+}
+
+.donate {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.donate-para {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.tkbtn1 {
+    border-radius: 16px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: Fira Sans;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 25px;
+    padding: 40px;
+}
+
+.tkbtn1:hover {
+    background-color: #6bd599;
+}
+
+.tkbtn2 {
+    border-radius: 16px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: Fira Sans;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 25px;
+    padding: 40px;
+}
+
+.tkbtn2:hover {
+    background-color: #6bd599;
+}
+
+.tkbtn3 {
+    border-radius: 16px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: Fira Sans;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 25px;
+    padding: 40px;
+}
+
+.tkbtn3:hover {
+    background-color: #6bd599;
+}
+
+.tkbtn4 {
+    border-radius: 16px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: Fira Sans;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin: 25px;
+    padding: 40px;
+}
+
+.tkbtn4:hover {
+    background-color: #6bd599;
+}
+
+.tk {
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 130px;
+    justify-items: center;
+}
+
+.other {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 5px;
+    width: 1032px;
+    height: 64px;
+    display: flex;
+    order: 2;
+    flex-grow: 0;
+    margin: 32px 0px;
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+.donate-button {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 11px 20px 11px 20px;
+    border: none;
+    margin-left: 560px;
+    margin-right: 560px;
+    width: 151px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.donate-button:hover {
+    background-color: rgb(8, 91, 56);
+}
+
+.sec6 {
+    border-radius: 24px;
+    margin-top: 80px;
+    background: rgb(198, 228, 214);
+    width: auto;
+    height: 395px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.subnews {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    position: static;
+    justify-content: center;
+    padding: 80px 100px;
+}
+
+.bng2 {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    text-align: center;
+    /* position: static; */
+    width: 622px;
+    height: auto;
+    margin-bottom: 15px;
+
+}
+
+.email {
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 40px;
+    border: none;
+    width: 600px;
+    gap: 0px;
+    justify-content: center;
+}
+
+.email::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.info {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.subs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.subs-btn {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    background: rgb(0, 106, 80);
+    width: 150px;
+    height: 52px;
+}
+
+.subs-btn:hover {
+    background-color: rgb(94, 215, 207);
+    border: 1px solid #006A50;
+
+}
+
+.promise {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.bd2 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+.foot {
+    background: rgb(255, 255, 255);
+    justify-items: center;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    padding: 50px;
+
+}
