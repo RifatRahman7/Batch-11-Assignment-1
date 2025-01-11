@@ -47,6 +47,8 @@ body {
     padding: 15px 30px;
     border-radius: 8px;
     border: 1px solid;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 
 }
 
@@ -99,6 +101,8 @@ body {
     background: rgb(0, 106, 80);
     padding: 17px 34px 17px 34px;
     border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .btn2:hover {
@@ -224,6 +228,8 @@ body {
     background: rgb(84, 144, 245);
     padding: 11px 20px 11px 20px;
     border: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
 }
 
 .btn3:hover {
@@ -242,7 +248,7 @@ body {
     background: rgb(0, 106, 80);
     padding: 11px 20px 11px 20px;
     border: none;
-
+    transition: transform 0.3s ease, background-color 0.3s ease;
 
 }
 
@@ -262,6 +268,7 @@ body {
     background: rgb(255, 194, 57);
     padding: 11px 20px 11px 20px;
     border: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .btn5:hover {
@@ -283,7 +290,7 @@ body {
 
 .quote {
     padding: 5px 0px 5px 0px;
-    background-position:top left;
+    background-position: top left;
     background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
 }
@@ -342,6 +349,7 @@ td {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .sel2 {
@@ -358,6 +366,7 @@ td {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .sel3 {
@@ -374,6 +383,7 @@ td {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .tab {
@@ -458,8 +468,9 @@ td {
     font-size: 18px;
     font-weight: 600;
     border-radius: 5px;
-    background: rgb(0, 106, 80);
+    background: rgb(11, 112, 75);
     padding: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .sata {
@@ -516,6 +527,7 @@ td {
     border-radius: 16px;
     margin: 25px;
     padding: 40px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .tkbtn1:hover {
@@ -536,6 +548,7 @@ td {
     border-radius: 16px;
     margin: 25px;
     padding: 40px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .tkbtn2:hover {
@@ -556,6 +569,7 @@ td {
     border-radius: 16px;
     margin: 25px;
     padding: 40px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .tkbtn3:hover {
@@ -576,6 +590,7 @@ td {
     border-radius: 16px;
     margin: 25px;
     padding: 40px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .tkbtn4:hover {
@@ -631,6 +646,7 @@ td {
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .donate-button:hover {
@@ -719,12 +735,11 @@ td {
     background: rgb(0, 106, 80);
     width: 150px;
     height: 52px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .subs-btn:hover {
     background-color: rgb(2, 69, 46);
-    /* border: 1px solid #006A50; */
-
 }
 
 .promise {
