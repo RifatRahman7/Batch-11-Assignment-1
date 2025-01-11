@@ -229,7 +229,7 @@ body {
     padding: 11px 20px 11px 20px;
     border: none;
     transition: transform 0.3s ease, background-color 0.3s ease;
-    
+
 }
 
 .btn3:hover {
@@ -400,16 +400,19 @@ td {
 .row1 {
     padding: 24px;
     font-size: 16px;
+    background: rgb(255, 255, 255);
 }
 
 .row2 {
     padding: 24px;
     font-size: 16px;
+    background: rgb(255, 255, 255);
 }
 
 .row3 {
     padding: 24px;
     font-size: 16px;
+    background: rgb(255, 255, 255);
 }
 
 .row {
@@ -420,7 +423,7 @@ td {
 .form-box {
     border-radius: 16px;
     padding: 24px;
-    background: rgb(247, 245, 245);
+    background: rgb(255, 255, 255);
 }
 
 .rec-news {
@@ -653,7 +656,7 @@ td {
 
 .donate-button:hover {
     background-color: rgb(48, 180, 125);
-    
+
 }
 
 .sec6 {
