@@ -548,6 +548,7 @@ td {
     border-radius: 16px;
     margin: 25px;
     padding: 40px;
+    background: rgb(198, 228, 214);
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
