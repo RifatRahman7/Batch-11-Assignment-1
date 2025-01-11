@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 835px;
 }
 
 .title1 {
@@ -633,7 +634,7 @@ td {
 }
 
 .donate-button:hover {
-    background-color: rgb(8, 91, 56);
+    background-color: rgb(3, 55, 33);
 }
 
 .sec6 {
@@ -665,7 +666,6 @@ td {
     font-family: Fira Sans;
     font-size: 16px;
     text-align: center;
-    /* position: static; */
     width: 622px;
     height: auto;
     margin-bottom: 15px;
@@ -722,8 +722,8 @@ td {
 }
 
 .subs-btn:hover {
-    background-color: rgb(94, 215, 207);
-    border: 1px solid #006A50;
+    background-color: rgb(2, 69, 46);
+    /* border: 1px solid #006A50; */
 
 }
 
