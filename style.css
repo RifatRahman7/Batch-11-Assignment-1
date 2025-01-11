@@ -283,7 +283,7 @@ body {
 
 .quote {
     padding: 5px 0px 5px 0px;
-    background-position: top left;
+    background-position:top left;
     background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
 }
