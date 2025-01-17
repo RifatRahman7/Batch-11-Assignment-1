@@ -351,6 +351,7 @@ td {
     letter-spacing: 0%;
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
+    display: flex;
 }
 
 .sel2 {
@@ -368,6 +369,7 @@ td {
     letter-spacing: 0%;
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
+    display: flex;
 }
 
 .sel3 {
@@ -385,6 +387,7 @@ td {
     letter-spacing: 0%;
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
+    display: flex;
 }
 
 .tab {
